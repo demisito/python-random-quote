@@ -6,10 +6,11 @@ def main():
   quotes = f.readlines()
   f.close()
   
-  last = 13
+  last = 20
   rnd = random.randint(0, last)
   last = len(quotes) - 1
   print(quotes[rnd])
    
 if __name__== "__main__":
+  main()
   main()
